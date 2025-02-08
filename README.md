@@ -18,6 +18,7 @@ We'll learn how to design and organize data using MongoDB.
 A schema helps us define how the data is stored and related.
 🌟 M4. Authentication
 Authentication ensures only the right people can access certain features. For example:
+<<<<<<< HEAD
 
 Users need to log in to place orders or see their personal data.
 It keeps the app secure by verifying users' identities.
@@ -25,12 +26,22 @@ It keeps the app secure by verifying users' identities.
 In this milestone, we set up the foundational structure for the project and implemented the first user-facing feature: the Login Page. Here's what we completed:
 
 🌟 1. Project Folder Structure
+=======
+- Users need to logm in to place orders or see their personal data.
+- It keeps the app secure by verifying users' identities.
+
+### Milestone 2: Project Setup and Login Page Development
+In this milestone, we set up the foundational structure for the project and implemented the first user-facing feature: the Login Page. Here's what we completed:
+
+1. Project Folder Structure
+>>>>>>> 8930bd59d3a8f2b9a9ba64f958a1630558b1a08a
 We organized the project into two separate directories:
 
 Frontend: Where the React app lives.
 Backend: Where the Node.js/Express backend resides.
 This structure will make it easier to manage the frontend and backend code separately as the project grows.
 
+<<<<<<< HEAD
 🌟 2. React Frontend Setup
 We initialized a new React application to build the user interface. This app will be the foundation for all the user-facing features of the e-commerce platform.
 
@@ -41,10 +52,23 @@ We set up a simple Node.js server using Express to handle requests and API route
 Tailwind CSS was configured to enable a utility-first styling approach for rapid and responsive design. This allows us to quickly style components without writing custom CSS.
 
 🌟 5. Login Page Development
+=======
+2. React Frontend Setup
+We initialized a new React application to build the user interface. This app will be the foundation for all the user-facing features of the e-commerce platform.
+
+3. Node.js Backend Setup
+We set up a simple Node.js server using Express to handle requests and API routes. This server will eventually power the various features, like user authentication, product management, and order processing.
+
+4. Tailwind CSS Configuration
+Tailwind CSS was configured to enable a utility-first styling approach for rapid and responsive design. This allows us to quickly style components without writing custom CSS.
+
+5. Login Page Development
+>>>>>>> 8930bd59d3a8f2b9a9ba64f958a1630558b1a08a
 The main feature developed in this milestone is the Login Page:
 
 A functional login form where users can enter their credentials to authenticate.
 Responsive and styled using Tailwind CSS to ensure a modern user experience.
+<<<<<<< HEAD
 ## 🌟 Milestone 3:
 Set up dedicated folders for organizing backend code effectively. Initialized and configured a Node.js server to handle API requests. Connected the application to MongoDB to store and manage data. Implemented basic error handling to ensure smooth server operation.
 
@@ -68,3 +92,12 @@ In this milestone, we created a product page for the e-commerce website. The pag
 
 ## 🌟 Milestone 10
 In this milestone, we created an API to allow product creation with image uploads using Multer. The images are stored in the uploads/ directory, and product data, including image paths, is saved to MongoDB for efficient storage and retrieval.
+=======
+
+### Milestone 3:
+Set up dedicated folders for organizing backend code effectively. Initialized and configured a Node.js server to handle API requests. Connected the application to MongoDB to store and manage data. Implemented basic error handling to ensure smooth server operation.
+
+### Milestone 4
+Created a User Model to define how user data is structured in the database, also developed a User Controller to manage user interactions, like adding or retrieving data. Additionally, configured Multer to handle file uploads, allowing users to store files such as images.
+
+>>>>>>> 8930bd59d3a8f2b9a9ba64f958a1630558b1a08a
