@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import Product from "../components/Products/Product";
 import  MyProducts  from "../components/MyProduct/myproducts";
-import Navbar from "../components/Navbar.jsx";
+import Navbar from "../components/Navbar";
 export default function MyProduct() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);

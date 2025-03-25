@@ -94,6 +94,7 @@ router.get('/my-products', async (req, res) => {
       if (!products) { // Handle the case where no products are found
         return res.status(404).json({ message: "No products found for this email." });
       }
+  
       const productsWithFullImageUrl = products.map(product => {
         if (product.images && product.images.length > 0) {
           product.images = product.images.map(imagePath => {
